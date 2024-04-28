@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #ecf0f3;
+    background-image: url(Image/sunset-815270_1280.jpg);
+    background-size: 100% 100%;
+
+}
+
+.container {
+    margin-top: -130px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #a59f9f;
+}
+
+
+.row button {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    color:rgb(255, 0, 0);
+    font-size: 17px;
+}
+
+.row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+        inset -5px -5px 8px #fff;
+    background: #fff;
+    box-shadow: 5px 5px 8px #00000020,
+        -5px -5px 8px #ffff;
+       
+}
+
+.display #screen {
+    margin-bottom: .5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+        inset -8px -8px 8px #ffffff;
+}
+
+#equal-sign {
+    background:#221183;
+    color: #fff;
+}
+
+#equal-sign:hover {
+     box-shadow: 5px 5px 8px #00000020,
+        -5px -5px 8px #ffff;
+}
+
+#ac {
+    background: #33cc33;
+    color: #fff;
+}
+
+#ac:hover {
+    box-shadow: 5px 5px 8px #00000020,
+        -5px -5px 8px #ffff;
+}
+
+#ce {
+    background: #ff3399;
+    color: #fff;
+}
+
+#ce:hover {
+        box-shadow: 5px 5px 8px #00000020,
+        -5px -5px 8px #ffff;
+}
